@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 body{
-    background-image: url(imagens/pexels-pixabay-373543.jpg) ;
+    background-image: url(imagens/pexels-pixabay-373543.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
-    }
+     }
 
 header > h1 {
     font: bolder 25pt arial ;
