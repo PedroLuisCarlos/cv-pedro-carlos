@@ -5,11 +5,12 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
+   
      }
 
 header > h1 {
     font: bolder 25pt arial ;
-    color: whitesmoke;
+    color: rgb(119, 25, 25);
  
 }
 
@@ -60,8 +61,8 @@ div#social img:hover{
 }
 
 div#cv{
-    position: relative;
-    color: whitesmoke;
+        position: relative;
+    color: rgb(95, 24, 24);
     background-color: darkgoldenrod;
     border-radius: 10px;
     font: normal 15pt arial;
@@ -74,8 +75,8 @@ div#cv{
 
  div#cv > a{
     text-decoration: none;
-    font: normal 15pt arial;
-    color: white;
+    font: bolder 15pt arial;
+    color: rgb(95, 24, 24)
  }
 
 div#cv:hover {
@@ -88,8 +89,9 @@ div#cv:hover {
 
 
 div#info{
+    font: normal 15pt black;
     width: 600px;
-    height: 200px;
+    height: 250px;
     position: relative;
     background-color: rgba(255, 255, 255, 0.404);
     top: 215px;
@@ -98,12 +100,13 @@ div#info{
 }
 
 div#exp{
+    font: normal 15pt black;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
     width: 600px;
-    height: 710px;
+    height: 900px;
     position: relative;
     background-color: rgba(255, 255, 255, 0.404);
-    top: 0px;
+    top: -50px;
     left: 640px;
 }
 
@@ -112,22 +115,25 @@ div#exp > p, h2{
 }
 
 div#exp h2 {
+    color: rgb(109, 12, 12);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
 }
 
 h1{
+    color: rgb(95, 24, 24);
     font: bolder 18pt arial;
     padding: 10px;
     text-align: center;
 }
 
 section{
+    font: normal 15pt black;
     background-color: rgba(255, 255, 255, 0.404);
     position: relative;
     width: 600px;
     height: 300px;
-    top: -300px;
+    top: -400px;
     left: 8px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
 }
@@ -146,48 +152,52 @@ td, th{
 
 th{
     color: white;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(95, 24, 24);
 }
 tr:nth-child(odd) {
     background-color: rgba(163, 163, 163, 0.473);
 }
 
 div#comp{
+    font: normal 15pt black;
     background-color: rgba(255, 255, 255, 0.404);
     position:relative;
     width: 600px;
-    height: 220px;
-    top: -460px;
+    height: 280px;
+    top: -570px;
     left: 640px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
 }
 div#hab{
+    font: normal 15pt black;
     background-color: rgba(255, 255, 255, 0.404);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
     position:relative;
     width: 600px;
-    height: 150px;
-    top: -800px;
+    height: 220px;
+    top: -990px;
     left: 8px;
 }
 
 div#hob{
+    font: normal 15pt black;
     background-color:rgba(255, 255, 255, 0.404);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
     position:relative;
     width: 600px;
-    height: 180px;
-    top: -695px;
+    height: 220px;
+    top: -890px;
     left: 8px;
 }
 
 div#mfinal{
+    font: normal 15pt black;
     background-color:rgba(255, 255, 255, 0.404);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
     position:relative;
     width: 1230px;
-    height: 160px;
-    top: -600px;
+    height: 200px;
+    top: -770px;
     left: 8px;
 }
  
