@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(94, 94, 94);
-    width: 100vw;
+    background-image: url(imagens/pexels-pixabay-373543.jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
     overflow-x: hidden;
     }
 
@@ -12,17 +13,16 @@ header > h1 {
  
 }
 
-header.principal {
+/*header.principal {
     width: 100vw;
     height: 350px;
     padding: 10px;
     text-align: center;
     color: white;
     position: absolute;
-    background: url(imagens/pexels-pixabay-417054.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-}
+}*/
 
 
 
@@ -34,6 +34,7 @@ div#secundario{
     height: 200px;
     left: 550px;
     position: absolute;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     
 }
 
@@ -68,11 +69,13 @@ div#cv{
     padding: 10px;
     width: 200px;
     left: 535px;
+    text-align: center;
  }
 
  div#cv > a{
     text-decoration: none;
     font: normal 15pt arial;
+    color: white;
  }
 
 div#cv:hover {
@@ -80,6 +83,7 @@ div#cv:hover {
     transform: translate(-5px, -5px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
     transition: transform .5s, border 1s;
+    color: green;
 }
 
 
@@ -88,7 +92,7 @@ div#info{
     height: 200px;
     position: relative;
     background-color: rgba(255, 255, 255, 0.699);
-    top: 385px;
+    top: 215px;
     left: 8px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
 }
@@ -99,7 +103,7 @@ div#exp{
     height: 710px;
     position: relative;
     background-color: rgba(255, 255, 255, 0.699);
-    top: 170px;
+    top: 0px;
     left: 640px;
 }
 
@@ -123,7 +127,7 @@ section{
     position: relative;
     width: 600px;
     height: 300px;
-    top: -150px;
+    top: -300px;
     left: 8px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
 }
@@ -153,7 +157,7 @@ div#comp{
     position:relative;
     width: 600px;
     height: 220px;
-    top: -300px;
+    top: -460px;
     left: 640px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
 }
@@ -163,7 +167,7 @@ div#hab{
     position:relative;
     width: 600px;
     height: 150px;
-    top: -650px;
+    top: -800px;
     left: 8px;
 }
 
@@ -173,7 +177,7 @@ div#hob{
     position:relative;
     width: 600px;
     height: 180px;
-    top: -535px;
+    top: -695px;
     left: 8px;
 }
 
@@ -183,7 +187,7 @@ div#mfinal{
     position:relative;
     width: 1230px;
     height: 160px;
-    top: -490px;
+    top: -600px;
     left: 8px;
 }
  
